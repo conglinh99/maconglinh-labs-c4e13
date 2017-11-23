@@ -1,0 +1,5 @@
+random.randint(...) statement is a sytax that you call randint from random, to use this function you have to call it out by:
+from random import randint
+or
+import random
+random.randint(...)

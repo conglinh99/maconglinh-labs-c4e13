@@ -1,0 +1,15 @@
+- we should use functions at all to organizw programs into chunk that match how we think about the problem.
+- to define a function, we use the following syntax:
+		def NAME(PARAMETERS):
+			STATEMENTS
+- to call/use a function, we use:
+	import file_containing_that_function
+or:
+	from file_containing_that_fuction import that_function
+- the return statement is followed an expression. This expression will be evaluated and returned to the caller as the "last call" of calling this function.
+- we don't have to return in every function
+- Most functions require arguments: the arguments provide for generalization
+- To use function from a different file other than our currently working file we can use the syntax:
+from name_file import function
+or
+name_file.function
